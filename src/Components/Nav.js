@@ -8,7 +8,8 @@ class Nav extends React.Component {
           <div>
             <ul className={indexStyles.menu}>
                 <li><Link to="/">Home</Link></li>
-                <li><Link to="/placeholder/">Link</Link></li>
+                <li><Link to="/schrute-bucks/">Schrute Bucks</Link></li>
+                <li><Link to="/schrute-beets/">Schrute Beets</Link></li>
             </ul>
           </div>
         )
