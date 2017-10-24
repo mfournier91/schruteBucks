@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "gatsby": "^1.9.62",
-    "gatsby-link": "^1.6.21"
+    "gatsby-link": "^1.6.21",
+    "gatsby-plugin-react-css-modules": "^1.0.8"
   }
 }
