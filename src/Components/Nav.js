@@ -7,7 +7,14 @@ class Nav extends React.Component {
         return (
           <div>
             <ul className={indexStyles.menu}>
-                <li><Link to="/">Home</Link></li>
+                <li>
+                  <Link to="/">
+                    <img
+                    className={indexStyles.logo}
+                    src={require("../images/moneybag.png")}
+                    />
+                  </Link>
+                </li>
                 <li><Link to="/schrute-bucks/">Schrute Bucks</Link></li>
                 <li><Link to="/schrute-beets/">Schrute Beets</Link></li>
             </ul>

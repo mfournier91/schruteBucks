@@ -60,6 +60,15 @@ h3 {
   margin: 0;
 }
 
+.logo {
+  width: 30px;
+  transition: 0.4s ease;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+}
+
 .header {
   display: flex;
   flex-direction: column;
